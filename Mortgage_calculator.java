@@ -22,5 +22,9 @@ public  class  Main{
         int numberOfPayments  =  years * MONTH_IN_YEAR;
 
         double mortage  = principal  * (monthlyInterest  * Math.pow(1 + monthlyInterest, numberOfPayments ))  / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
+
+        String mortageFormatted  =  NumberFormat.getCurrencyInstance();
+
+        system.out.println("Mortgage: " + mortageFormatted);
     }
 }
