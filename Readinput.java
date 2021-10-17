@@ -9,7 +9,6 @@ public  class  Main {
     }
 }
 
-package com.kaja
 
 public  class  Main {
     public static void main (String[] args) {
