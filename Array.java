@@ -1,14 +1,21 @@
-//install java dev kit
-package com.cyberspace;
+package com.cyberspac
 
-public class Main {
-    public static void public static void main(String[] args) {
-        Array numbers = new Array (3);
-        numbers.insert(10);
-        numbers.insert(20);
-        numbers.insert(30);
-        numbers.insert(40);
-        numbers.removeAt(3);
-        system.out.println(numbers.indexOf(100));
+public  class  Main {
+    public static void main (String[] args) {
+        Scanner scanner  = new Scanner(system.in);
+        system.out.println("Age: ");
+        byte age  = scanner.nextByte();
+        system.out.println("You are "  +  Age)
+    }
+}
+
+
+public  class  Main {
+    public static void main (String[] args) {
+        Scanner scanner  = new Scanner(system.in);
+        system.out.println("Name: ");
+        //use the trim method to get rid of white spaces.
+        String name  = scanner.nextLine.trim();
+        system.out.println("You are "  +  name)
     }
 }
